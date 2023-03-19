@@ -1,0 +1,411 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Aug 25 21:27:44 2022
+
+# Variables
+
+# environment
+TMUX_PANE = %0
+# environment
+JAVA_HOME = /home/ardfard/.cache/coursier/jvm/adopt@1.11.0-11
+# environment
+AS = as
+# environment
+out = /home/ardfard/code/system-design-practice/url-shortener/outputs/out
+# environment
+LC_ALL = C
+# environment
+AR = ar
+# environment
+shellHook = 
+# environment
+PULSE_SERVER = /mnt/wslg/PulseServer
+# environment
+doInstallCheck = 
+# environment
+WSLENV = ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID
+# environment
+NIX_CC_FOR_BUILD = /nix/store/3d9zjv5vaqjxb9kwbdqsd194alwm97x1-gcc-wrapper-11.3.0
+# environment
+buildPhase = echo "------------------------------------------------------------" >>$out
+# environment
+VSCODE_CWD = /mnt/c/Users/Ardin Fardiansyah/AppData/Local/Programs/Microsoft VS Code
+# environment
+NIX_CFLAGS_COMPILE =  -frandom-seed=rwdfknh37b -isystem /nix/store/y3c88g4w2ffs61ir7z9srnxy8kjq6bdv-protobuf-3.19.4/include -isystem /nix/store/y3c88g4w2ffs61ir7z9srnxy8kjq6bdv-protobuf-3.19.4/include
+# environment
+DIRENV_WATCHES = eJy0kM1O9CAYRu-FdVt4KRTa_bf8EvfGBT8vlgwtBphxjPHeXbirmnTjDTznPOfxnTyYtpKF0DVvSE3xwRRPXfZI61ttuPUea3ze-5diXIsO6bWkvq65NNyx0AH3W3GkI_-zb3FDssA0wShHIXlH_t1jbZUsrVzxo_sFNqTsTKJ1NQWpjwX3GzUp5VcqR6s95yo4EFOYvTXIhZJSaaelDZ5xlJaNCGK2MAObA3g7MSE40xasOmqBZjOTZ7W-VL6fAw2Mq5Mr50uGZC447PH-U0yl_4iXsrscgZwzLo4Hnz4DAAD__8Ekt9E=
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# environment
+AS_FOR_BUILD = as
+# environment
+strictDeps = 
+# environment
+CXX_FOR_BUILD = g++
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/ardfard/code/system-design-practice/url-shortener
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+SOURCE_DATE_EPOCH = 315532800
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+XDG_DATA_DIRS = /nix/store/nvzw6ln2vcax6vd04ymsl75rys4dlcsr-exa-0.10.1/share:/nix/store/6fwmvn3kh76xxsh5b44wcc1xrb65q8h0-fd-8.4.0/share:/nix/store/k9ka3fl4lvmsprx67lq2v8kafra52pjb-rust-default-1.63.0/share:/nix/store/m8i15rddjlp6lx6g2f60jz7s06ycazk1-patchelf-0.15.0/share:
+# environment
+NIX_LDFLAGS = -rpath /home/ardfard/code/system-design-practice/url-shortener/outputs/out/lib64 -rpath /home/ardfard/code/system-design-practice/url-shortener/outputs/out/lib  -L/nix/store/y3c88g4w2ffs61ir7z9srnxy8kjq6bdv-protobuf-3.19.4/lib -L/nix/store/k9ka3fl4lvmsprx67lq2v8kafra52pjb-rust-default-1.63.0/lib -L/nix/store/y3c88g4w2ffs61ir7z9srnxy8kjq6bdv-protobuf-3.19.4/lib -L/nix/store/k9ka3fl4lvmsprx67lq2v8kafra52pjb-rust-default-1.63.0/lib
+# environment
+OLDPWD = /mnt/c/Users/Ardin Fardiansyah/AppData/Local/Programs/Microsoft VS Code
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+LANG = C
+# environment
+AR_FOR_BUILD = ar
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /nix/store/zn25l68l2k0zgsf4vgvyrwsss0axa250-gnumake-4.3/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+NIX_BUILD_CORES = 12
+# environment
+stdenv = /nix/store/xp54g5pbm73bp4g6hjd5q9g9yvqq2alh-stdenv-linux
+# environment
+STRIP_FOR_BUILD = strip
+# environment
+NIX_HARDENING_ENABLE = fortify stackprotector pic strictoverflow format relro bindnow
+# environment
+SIZE_FOR_BUILD = size
+# environment
+NIX_LDFLAGS_FOR_BUILD =  -L/nix/store/y3c88g4w2ffs61ir7z9srnxy8kjq6bdv-protobuf-3.19.4/lib -L/nix/store/k9ka3fl4lvmsprx67lq2v8kafra52pjb-rust-default-1.63.0/lib -L/nix/store/y3c88g4w2ffs61ir7z9srnxy8kjq6bdv-protobuf-3.19.4/lib -L/nix/store/k9ka3fl4lvmsprx67lq2v8kafra52pjb-rust-default-1.63.0/lib -L/nix/store/y3c88g4w2ffs61ir7z9srnxy8kjq6bdv-protobuf-3.19.4/lib -L/nix/store/k9ka3fl4lvmsprx67lq2v8kafra52pjb-rust-default-1.63.0/lib
+# makefile
+CURDIR := /home/ardfard/code/system-design-practice/url-shortener
+# environment
+NIX_BINTOOLS = /nix/store/j120vk59g1c6b0mny6siv2wk5l268lc1-binutils-wrapper-2.38
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-cn7uuJsenFWQ/agent.60
+# default
+.SHELLFLAGS := -c
+# environment
+WSL2_GUI_APPS_ENABLED = 1
+# environment
+NIX_CC_WRAPPER_TARGET_BUILD_x86_64_unknown_linux_gnu = 1
+# environment
+WAYLAND_DISPLAY = wayland-0
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# environment
+ZSH = /home/ardfard/.oh-my-zsh
+# environment
+TMUX = /tmp/tmux-1000/default,31100,0
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+RANLIB = ranlib
+# environment
+FZF_DEFAULT_COMMAND = ag --hidden --ignore .git -l -g ""
+# environment
+RANLIB_FOR_BUILD = ranlib
+# environment
+WT_PROFILE_ID = {07b52e3e-de2c-5db4-bd2d-ba144ed6c273}
+# environment
+propagatedNativeBuildInputs = 
+# environment
+depsHostHost = 
+# automatic
+*F = $(notdir $*)
+# environment
+shell = /nix/store/3j918i1nbwhby0y38bn2r438rjhh8f4d-bash-5.1-p16/bin/bash
+# environment
+system = x86_64-linux
+# environment
+depsBuildBuild = 
+# environment
+NM_FOR_BUILD = nm
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+LD_FOR_BUILD = ld
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+READELF_FOR_BUILD = readelf
+# environment
+depsTargetTargetPropagated = 
+# environment
+depsBuildTargetPropagated = 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 4
+# environment
+STRINGS = strings
+# environment
+buildInputs = 
+# environment
+NIX_CC = /nix/store/3d9zjv5vaqjxb9kwbdqsd194alwm97x1-gcc-wrapper-11.3.0
+# environment
+MAKELEVEL := 0
+# environment
+OBJDUMP = objdump
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/ardfard/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/nix/store/3d9zjv5vaqjxb9kwbdqsd194alwm97x1-gcc-wrapper-11.3.0/bin:/nix/store/jdc41bl531bw84wi82y6gvij34q5m24a-gcc-11.3.0/bin:/nix/store/rlvcxvck75x93q8dcw7vf9j2br6znyb9-glibc-2.35-163-bin/bin:/nix/store/m5n32vy7rbfrqcxigw1p6wyx3cj7smg9-coreutils-9.1/bin:/nix/store/j120vk59g1c6b0mny6siv2wk5l268lc1-binutils-wrapper-2.38/bin:/nix/store/vhf2cr6immz4qdxd83y025fnxim8mmfg-binutils-2.38/bin:/nix/store/izr20yc8lm3vvffh1pqcwn3k03safqnh-rnix-lsp-0.2.5/bin:/nix/store/y3c88g4w2ffs61ir7z9srnxy8kjq6bdv-protobuf-3.19.4/bin:/nix/store/nvzw6ln2vcax6vd04ymsl75rys4dlcsr-exa-0.10.1/bin:/nix/store/6fwmvn3kh76xxsh5b44wcc1xrb65q8h0-fd-8.4.0/bin:/nix/store/k9ka3fl4lvmsprx67lq2v8kafra52pjb-rust-default-1.63.0/bin:/nix/store/c4nq7z2r5m1l5prg9mcgp9hmczc96vps-rust-analyzer-2022-08-01/bin:/nix/store/2r71ba724ddpsxf7v4r604v8pyxjzqaz-cargo-watch-8.1.2/bin:/nix/store/m8i15rddjlp6lx6g2f60jz7s06ycazk1-patchelf-0.15.0/bin:/nix/store/m5n32vy7rbfrqcxigw1p6wyx3cj7smg9-coreutils-9.1/bin:/nix/store/0b6zhyagwcps9qq67sd0qwmsshnjsqs0-findutils-4.9.0/bin:/nix/store/73x2v14nz9w7f901g9g1v2pzss5s2zf5-diffutils-3.8/bin:/nix/store/g70646ycrn5mlgmgv8dcxasks2n60gq3-gnused-4.8/bin:/nix/store/hpz0wykcsfknskfwyqm2lkjw06drmhz4-gnugrep-3.7/bin:/nix/store/b0d82v962qv75d5m2iqia2i4jwaghbbn-gawk-5.1.1/bin:/nix/store/wzz5dqniln72k5bd9a65jsfsidyz4hk2-gnutar-1.34/bin:/nix/store/mby2nzrcmq2nga7sfhnfinx721809iff-gzip-1.12/bin:/nix/store/v77amliax1npawxcw5g2nww4fxfsy2na-bzip2-1.0.8-bin/bin:/nix/store/zn25l68l2k0zgsf4vgvyrwsss0axa250-gnumake-4.3/bin:/nix/store/3j918i1nbwhby0y38bn2r438rjhh8f4d-bash-5.1-p16/bin:/nix/store/24j97sd5iwig7h13j05cyxkw31n3vw6m-patch-2.7.6/bin:/nix/store/959vi4vzdbiw036mxmcdw171a171c4vn-xz-5.2.5-bin/bin:/nix/store/j11cnx6a6mva6kka2fi4g9injdjkvlxd-file-5.42/bin:/home/ardfard/.nix-profile/bin:/home/ardfard/.nix-profile/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.15.2002.0_x64__8wekyb3d8bbwe:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/LLVM/bin:/mnt/c/tools/opencv/build/x64/vc14/bin:/mnt/c/Users/Ardin Fardiansyah/.cargo/bin:/mnt/c/Users/Ardin Fardiansyah/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Ardin Fardiansyah/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1.2/bin:/home/ardfard/.cache/coursier/jvm/adopt@1.11.0-11/bin:/home/ardfard/.local/share/coursier/bin:/home/ardfard/.local/bin:/home/ardfard/.local/bin/go/bin:/home/ardfard/.pulumi/bin:/home/ardfard/.cache/coursier/jvm/adopt@1.11.0-11/bin:/home/ardfard/.local/share/coursier/bin:/home/ardfard/.local/bin:/home/ardfard/.local/bin/go/bin:/home/ardfard/.pulumi/bin
+# environment
+NIX_SSL_CERT_FILE = /etc/ssl/certs/ca-certificates.crt
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+doCheck = 
+# environment
+NIX_CFLAGS_COMPILE_FOR_BUILD =  -isystem /nix/store/y3c88g4w2ffs61ir7z9srnxy8kjq6bdv-protobuf-3.19.4/include -isystem /nix/store/y3c88g4w2ffs61ir7z9srnxy8kjq6bdv-protobuf-3.19.4/include -isystem /nix/store/y3c88g4w2ffs61ir7z9srnxy8kjq6bdv-protobuf-3.19.4/include
+# environment
+WT_SESSION = 4dae6bc8-aa84-43d8-aaa3-6ec1c0111100
+# environment
+configureFlags = 
+# environment
+name = nix-shell
+# environment
+SIZE = size
+# automatic
+?F = $(notdir $?)
+# environment
+NAME = Code
+# environment
+READELF = readelf
+# environment
+HOSTTYPE = x86_64
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
++F = $(notdir $+)
+# environment
+LESS = -R
+# environment
+mesonFlags = 
+# environment
+WSL_INTEROP = /run/WSL/8_interop
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu = 1
+# environment
+DIRENV_FILE = /home/ardfard/code/system-design-practice/url-shortener/.envrc
+# environment
+OBJDUMP_FOR_BUILD = objdump
+# environment
+LOGNAME = ardfard
+# environment
+cmakeFlags = 
+# environment
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Ardin Fardiansyah/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.3
+# environment
+propagatedBuildInputs = 
+# environment
+NIX_INDENT_MAKE = 1
+# environment
+dontAddDisableDepTrack = 1
+# makefile
+.DEFAULT_GOAL := 
+# environment
+phases = buildPhase
+# environment
+CONFIG_SHELL = /nix/store/3j918i1nbwhby0y38bn2r438rjhh8f4d-bash-5.1-p16/bin/bash
+# environment
+NIX_STORE = /nix/store
+# environment
+OBJCOPY_FOR_BUILD = objcopy
+# environment
+depsBuildBuildPropagated = 
+# environment
+EDITOR = nvim
+# environment
+DISPLAY = :0
+# environment
+USER = ardfard
+# default
+MAKE_VERSION := 4.3
+# environment
+NIX_PROFILES = /nix/var/nix/profiles/default /home/ardfard/.nix-profile
+# environment
+DIRENV_DIR = -/home/ardfard/code/system-design-practice/url-shortener
+# environment
+depsHostHostPropagated = 
+# environment
+depsTargetTarget = 
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+# environment
+depsBuildTarget = 
+# environment
+SSH_AGENT_PID = 61
+# environment
+PAGER = less
+# environment
+_ = /nix/store/m5n32vy7rbfrqcxigw1p6wyx3cj7smg9-coreutils-9.1/bin/env
+# environment
+patches = 
+# environment
+XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
+# environment
+outputs = out
+# environment
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-fa0eb1e8-4a23-4f0f-a38e-fee2fc580e23.sock
+# environment
+DIRENV_DIFF = eJzsWmlv4zqW_SuCZj7MoKN9D9DAOLaTuCqxPbYryQsKMCiKkmhJlEzK2hrvvw8kO4m3eu9VUo3uAVJAJdS5PIfkJXm55R98xl_-g5_2Frf8JS-FaYIkQD0fUE8SCa6EjKY-jpHkYnL5Z-YNo1KcQhBL7Oj79fPN0CW2n69YABLE9nn7AHalksXt70spIbkEpSlNAwoS7hrHiEmPmHhpyXpZxqR7DGnKUj8Xd-gC0QQTEC8VUTFEVZZVUV5Wpr5c2iWKalfzbNct0YtyuWVJrGY5SjT1CD_ONt9lkx5dlPzYuAWmaYnoPERxLBWKKEs_zD_JEJnPb6WzzeX-q7LN_5bGD6PBqMf1U5qlFOQ4JdI0rNmT1E-TJCXnPXWGtIPGxeBuNJ-dp3lpTlD-Wp3H0XgweZyf-GiHH2c766NT4x_76CT_H_pIusG5BBPvyDgAOZBgmMI0Bjmqt8PvHP3u7uF-35qnacykNEMEFpK7wbEnVaYuFVDR97N9Y4gyqUc9TLhrQD0MCKtBKIkQ0CD9Kzl7WdZV8q6bBK-DeX-I_5zErl17E4N7mHP91EM_bv0XlF9RgAmTRiRHcYy_cKPBsB02SbIhOK-5oYfbwcOpsqqKiqieCxIQwBBJMN1QhhGVVkUiAS_N8v9RREURZUFRzrF2USQEdI_7w3x_ZJBePH5ozzbxJsH_LyvM_37BkzZo92b8JQ8of8H3ZsvryWx59W10N3jF5m2KdalDa4v1-_wlH0DYJQ_MO3Ayvh7dLOe3w7u7dmEguJJYnlIkaStHsbFC3DJ0a7nWbJeoVNdsugpD29c9wQUsFAxRETLF7BrUAq3k01Mr_7e_bdOHhXboYDQbjh-Wg1HbMOHQAbAdq9tQI3iI4YAIGQUwxxBJGxoLLExpjgiibzrXo7vhyaL2l3UkEZGCwje5x96ifztsvYq-1HJ0r0ycfu-32Ua49h5y_etsAZaubw8L_-ZqYRdxUOZXWVitprfoycU0IYvVYNGQ6cSvyKL-Lc--XsuDh2I-1KpyNps--c8jU8nzzfQbAlqDBMPDTyM2Md3HqFibxnhcV3LvVnvUbqLRUmhc7XrAWE8u5-Ht6Cm-XebKyn3-xuhDU6VLdj1eL9ji6xdl_L-P2ap80m6ab5nxANczkzlGnerD68lvxeJpFD5_mQOA4sGzUcVfwLh_81W9703cnhZY9_OhLleATZL11fNqsni2HoWHO9Pvler92rinhry5ee7rujW9Fb7JdbzU8ROjDAbPZXOX6rek0Qe93mC5tIdR7gz_zl_wt5P5Yvmy23gbVIlBNLWoLer6dA0rHJRKZpZ1pcGVxZLAEWBK0SbHMRMccTcB39iyazZhDYISZsxZr02LefK6TBgLyYqtmSz4mHhbti46onzMt7RKLRSdNE5p-Y6sBE6gFGrWMGYwtfENwcO-v-Vron3MDizZ1M0aUmIkcZAEhe3BCrCIqcSUg7UmBGTDkCfop9Qwa-SyjiDzI8Iiv6zXiRpHq1I2PZqEjd5SA4oyQROtY64re7ZaOKa6LizDMxIVrzFQsb4qQRC6LhECUEbtPDz1V9k0hrcmOCaWGhmu5wDTWDGfYa9u9DBS22JzQAVF1PRjbuLWKmkoTNYqCYDF_JD4mFSWqtiyg31fCBqcCYqoqMfMwrJAEmNQKSQDZQVLI1BJWep-5bNaJUBwG5ypgiLKoi10ceOQ3xDViE07ViO5CZivF0FR05IxJoMKqIbc1joBERJ0UTvm_nTQ2ier-sqxmGfgEgdWqGgr2YB1FZWaQrSiNBMhAzkMBVW0xBOuYzgF1ovGc3Epa2ZSJdArFUsBiqVAvSBC1QiGqIrGuRavFAWSygRmUgAzioDqYz1wMFl5q6iIK09ot96CIeqdr_kLfjRejkdPr1EbJ9mGIv6C72Js7HWpg7jbYS3lajReTCZ388NpuVJUuYgMJ1Cg6coJqU2GC7WMjFg17RgqbaW386KkIMsQFVRRs48kDwr85eKPs950OpwtF73ZzXCxLWdZ2ebS1JcbEpG0JMsYk021DMiGv-SVPxHoAtRf4XcF9SezbkVQ1B3crav7A89zmlVhFGC9qlwnKl1vzTzF0UFcJo5VKUIA4Wv7FEXURPlV6UeO-5Dme_11Sv2rnupf3_Vu5sv-5H66XZA5waeAeGkiMIS8v9PS8yMSapbLCXi7MnN7ra01aNuBXqq-z0wFU6txGCVVbUertel6RXsEzVN34wuaqDiiLmEC442HfqnY2aYc9M-_b93_GY4Yjq8ns_5wOZ4sx73F6GG419-3vdlgOB6Nb5bDce-q63E_pTn2a47lAEatMoJ5SrkMQ47lFMM8LRD147Tk_JQmIOcoimnKuZh4JC13uqPxYDheLO97X_dLuxt0fdJuGGkG8pB773Yv3eTZJmftbynGrqlzv1aQ44S7j3RAK3GgEDkR0PxYj4uEZbQyrXitFnYEfAoMNVu5At2wXPCQDzZxLiiiqYnyqcq_rh6HHXg0mf49qvhZj7NdNl9MZsODNak13POXPEm61EFndtjk6kt_Mv2Nv-RTdwXTrH7DDjIfWAff7qdbzNsk2Rt2zNhZT48V71gpT_ZgHtQVNzY0xS1tvcS2WptBgVeavjYSVQedxHkqjQtYFTCyjMrR1rYHS6vwnZXqUrMhtesIQYxd2O5qDEExtXM7wI-di963wzrZt4e-CqmJk6TR117l2Votq4ZPKpzYSeIHbyrn2LihqlxDO060ovD9UMnWsCRaJGsM-GsSCpTgSohZJsjtNviY_tNj_YhPiqY0Y6IWEFRm4cl6nbDYMmjNdC-GjAqoAoIsKvKp90y_TAqiRaFlVhULDVfXSwiVirqmsbZDWfA9wRb1035_1-w60oA6WVuNSo1EiY2MBk4Cg8wJE9hAxywyttUABMR10_abrKqCbAvySStUaikusFTd8zJW-VahU1PWCzurq1WzBo3QXUoKZXeEsd9u8fbGoI0Vg3reKs7MuDID1TflVWMx2awhaCJle_xBsd_60ThtyufZ_vNs_3m2_9jZ_k-f3j5f5j5f5j5f5j5f5j5f5v6VL3MX_Kw3vhtd8Zc8BWR7YNoiB0eWN9uwNxjeXbcQAh6K_TfskPBqnY-e25MXww3afR1kfMEn32b94XLQWwyXw-mk3x6LNMUwNNWW5da-mI3G3aUJyykmAXvDDuUOrNMdkr18n-RtLU-Dm7bg3nIwmh1dJ__MZrzrsPdtx0-o79qQn6j89D54q8Bf8F1AGpFskzP-kn8BpiFgiL_kEQxT7jsvfODfd577vpFlDW1__me6yb-TnS732JuNR-ObSy4PEYcqzHJEIOJSn8tDzLjujgszjqQ5F2wABSRHyBP_UHKUtwxAOExyRAmIOZxkMUoQybtFi_NQDnDM-SnlsihgYhJ1S0aryv1Y95_kgj2Y2-L_wc0QTKnHgTjmus7gcNc9HGAc3ZAcJ4jzUIaIhwjEiH0nqMpSmp8Te-lPRH_RQzlsd7rXMQh2owWmxMfBhu5jHsrYVVtq9-McNqVpBgKQo2PrAtAA5WfBc5zblOXt_1PkXO6tznER--gJK-2HCEYvHyPCchDHBxjJe543wAy4MRqgbEFBZ1P4Cz5BLCV7fiEgaedUuwFm7YjroBwX6OpgDr7_guIjl-jc-2Ih954oyH0w_nG_4jKC-9BFBH_Bp5v8A3_BsXcDv9Xa9f72exuud-Mma4Nxm94LzRd89jpWr45D-JtpfGZ88Rf8dvj9mojQad2m6W5GsNxDpDjUrjJDD4zMTSzNzfTADFeesXYCpy7WaxXEobAlCd0LXadBMcwHKHupbudQ_pLfvujt8v3--_8FAAD__8GRLJU=
+# environment
+IN_NIX_SHELL = impure
+# environment
+NIX_ENFORCE_NO_NATIVE = 1
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+builder = /nix/store/3j918i1nbwhby0y38bn2r438rjhh8f4d-bash-5.1-p16/bin/bash
+# environment
+HOME = /home/ardfard
+# environment
+STRINGS_FOR_BUILD = strings
+# environment
+TERM = screen-256color
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+nativeBuildInputs = /nix/store/izr20yc8lm3vvffh1pqcwn3k03safqnh-rnix-lsp-0.2.5 /nix/store/y3c88g4w2ffs61ir7z9srnxy8kjq6bdv-protobuf-3.19.4 /nix/store/nvzw6ln2vcax6vd04ymsl75rys4dlcsr-exa-0.10.1 /nix/store/6fwmvn3kh76xxsh5b44wcc1xrb65q8h0-fd-8.4.0 /nix/store/k9ka3fl4lvmsprx67lq2v8kafra52pjb-rust-default-1.63.0 /nix/store/c4nq7z2r5m1l5prg9mcgp9hmczc96vps-rust-analyzer-2022-08-01 /nix/store/2r71ba724ddpsxf7v4r604v8pyxjzqaz-cargo-watch-8.1.2
+# environment
+NM = nm
+# default
+.RECIPEPREFIX := 
+# environment
+CC_FOR_BUILD = gcc
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+LD = ld
+# environment
+NIX_BINTOOLS_WRAPPER_TARGET_BUILD_x86_64_unknown_linux_gnu = 1
+# environment
+NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu = 1
+# environment
+WSL_DISTRO_NAME = Ubuntu-20.04
+# environment
+STRIP = strip
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+NIX_BINTOOLS_FOR_BUILD = /nix/store/j120vk59g1c6b0mny6siv2wk5l268lc1-binutils-wrapper-2.38
+# environment
+HOST_PATH = /nix/store/m5n32vy7rbfrqcxigw1p6wyx3cj7smg9-coreutils-9.1/bin:/nix/store/0b6zhyagwcps9qq67sd0qwmsshnjsqs0-findutils-4.9.0/bin:/nix/store/73x2v14nz9w7f901g9g1v2pzss5s2zf5-diffutils-3.8/bin:/nix/store/g70646ycrn5mlgmgv8dcxasks2n60gq3-gnused-4.8/bin:/nix/store/hpz0wykcsfknskfwyqm2lkjw06drmhz4-gnugrep-3.7/bin:/nix/store/b0d82v962qv75d5m2iqia2i4jwaghbbn-gawk-5.1.1/bin:/nix/store/wzz5dqniln72k5bd9a65jsfsidyz4hk2-gnutar-1.34/bin:/nix/store/mby2nzrcmq2nga7sfhnfinx721809iff-gzip-1.12/bin:/nix/store/v77amliax1npawxcw5g2nww4fxfsy2na-bzip2-1.0.8-bin/bin:/nix/store/zn25l68l2k0zgsf4vgvyrwsss0axa250-gnumake-4.3/bin:/nix/store/3j918i1nbwhby0y38bn2r438rjhh8f4d-bash-5.1-p16/bin:/nix/store/24j97sd5iwig7h13j05cyxkw31n3vw6m-patch-2.7.6/bin:/nix/store/959vi4vzdbiw036mxmcdw171a171c4vn-xz-5.2.5-bin/bin:/nix/store/j11cnx6a6mva6kka2fi4g9injdjkvlxd-file-5.42/bin
+# environment
+CXX = g++
+# environment
+CC = gcc
+# environment
+OBJCOPY = objcopy
+# variable set hash-table stats:
+# Load=163/1024=16%, Rehash=0, Collisions=16/186=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2080, inode 2295543): 16 files, no impossibilities.
+
+# 16 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 23 / storage = 236 B / avg = 10 B
+# current buf: size = 8162 B / used = 236 B / count = 23 / avg = 10 B
+
+# strcache performance: lookups = 25 / hit rate = 8%
+# hash-table stats:
+# Load=23/8192=0%, Rehash=0, Collisions=0/25=0%
+# Finished Make data base on Thu Aug 25 21:27:44 2022
+
+ 
